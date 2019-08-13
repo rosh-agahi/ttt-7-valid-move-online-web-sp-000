@@ -7,7 +7,7 @@ if board[index] == " " || board[index] == "" || board[index] == nil
 end
 
 # code your #valid_move? method here
-def valid_move?(position_taken?)
+def valid_move?
   if position_taken? == TRUE
     return FALSE
   else
